@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="6d.js"></script>
+    <title>AddingTable</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <label> Phone Number</label>
+        <input type="text" id="phoneInput"><br>
+        <label> Email Address</label>
+        <input type="text" id="emailInput"><br>
+        <input type="button" value="Add" onclick="addToTheTable()"> <br>
+    </form>
+    <table id="table">
+        <tr>
+            <th>Phone number</th>
+            <th>Email</th>
+        </tr>
+    </table>
+</body>
+
+</html>
